@@ -21,5 +21,5 @@ Neural network models are located in [./Model_codes](https://github.com/sarashoo
 
 ## Contact Information:
 **The platform as a whole as well as individual chips are available at cost to academic researchers. 
-If you have any questions abot the chips, please contact the following emails: hunseok@umich.edu , inhee.lee@pitt.edu , and blaauw@umich.edu .**
+If you have any questions about the chips, please contact the following emails: hunseok@umich.edu , inhee.lee@pitt.edu , and blaauw@umich.edu .**
 
