@@ -7,7 +7,7 @@ The light data for 2018, 2019, 2020 are stored on [./Light_Data](https://github.
 * In order to generate the testing data, you need to simply run the [Generate_testset_light.m](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/blob/main/Preprocessing_light_code/Generate_testset_light.m).
 
 ## Neural network models:
-Neural network models are located in [./Model_codes](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/tree/main/Model_codes). It includes both Python and Jupyter notebook versions. You can simply run the [Mobicom_Temp.ipynb](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/blob/main/Model_codes/Mobicom_Temp.ipynb)  and [Mobicom_light.ipynb](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/blob/main/Model_codes/Mobicom_light.ipynb) to generate the heatmap results.
+Neural network models are located in [./Model_codes](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/tree/main/Model_codes). It includes both Python and Jupyter notebook versions. You can simply run the [Mobicom_Temp.ipynb](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/blob/main/Model_codes/Mobicom_Temp.ipynb)  and [Mobicom_light.ipynb](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/blob/main/Model_codes/Mobicom_light.ipynb) to generate the heatmap results. The pretrained neural network models are located on [./Trained_models/](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/tree/main/Trained_models) .
 
 ## Heatmap and Visualization:
 
