@@ -1,4 +1,16 @@
-**mSAIL: Milligram-Scale Multi-Modal Sensor & Analytics Monitoring Platform for Monarch Butterfly Migration Tracking**\
-The "volunteer light data" for each year has been saved in both "*.mat" and "*.csv" formats.\
-Also, the data for each year contains 8 columns which are: year, month, day, longitude, latitude, sunrise time, sunset time, light data.
+# **mSAIL: Milligram-Scale Multi-Modal Sensor & Analytics Monitoring Platform for Monarch Butterfly Migration Tracking**\
+## Light Training Data:
+The light data for 2018, 2019, 2020 are stored on [./Light_Data](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/tree/main/Light_Data) . Volunteer data coordinates are intentionally made inaccurate in the resolution of 10km and we will gradually populate more data as we get permission from volunteers. 
+## Generate the training and testing data for neural network
+* In order to generate the training data, you need to simply run the [Generate_trainset_light.m](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/blob/main/Preprocessing_light_code/Generate_trainset_light.m).
+
+* In order to generate the testing data, you need to simply run the [Generate_testset_light.m](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/blob/main/Preprocessing_light_code/Generate_testset_light.m).
+
+## Neural network models:
+Neural network models are located in [./Model_codes](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/tree/main/Model_codes). It includes both python and Jupyter notebook versions. You can simply run the [Mobicom_Temp.ipynb] and [Mobicom_light.ipynb] to generate the heatmap results.
+
+## Heatmap and Visualization:
+
+[Heatmap_Mobicom.m] and [Visualization_Sampling.m] contain the codes to generate the localization results from the heatmaps generated from the NN models. They also include the codes to generate the following pictures.
+
 
