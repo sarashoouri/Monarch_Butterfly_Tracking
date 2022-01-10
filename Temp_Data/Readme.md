@@ -1,1 +1,1 @@
-This file contains the temperature data for volunteer people.
+This file contains the temperature data for volunteer people. This folder contains Temperature data for 2018, 2019, 2020. In order to get access to the data, you need to download all the "zip" files and merge them together.
