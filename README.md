@@ -1,6 +1,6 @@
 # **mSAIL: Milligram-Scale Multi-Modal Sensor & Analytics Monitoring Platform for Monarch Butterfly Migration Tracking**
-## Light Training Data:
-The light data for 2018, 2019, 2020 are stored on [./Light_Data](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/tree/main/Light_Data) . Volunteer data coordinates are intentionally made inaccurate in the resolution of 10km and we will gradually populate more data as we get permission from volunteers. 
+## Training Data:
+The voluneteer light and temeperature data for 2018, 2019, 2020 are stored on [./Light_Data](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/tree/main/Light_Data)  and [./Temp_Data](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/tree/main/Temp_Data). Volunteer data coordinates are intentionally made inaccurate in the resolution of 10km and we will gradually populate more data as we get permission from volunteers. 
 ## Generate the training and testing data for neural network
 * In order to generate the training data, you need to simply run the [Generate_trainset_light.m](https://github.com/sarashoouri/Monarch_Butterfly_Tracking/blob/main/Preprocessing_light_code/Generate_trainset_light.m).
 
